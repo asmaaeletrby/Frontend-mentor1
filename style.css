@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Karla";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+}
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+--blue:hsl(228, 45%, 44%);
+}
+body{
+    background-color:hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+.contaier{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    
+}
+.contaier .section1{
+    padding: 30px 40px;
+    
+}
+.contaier .section1 h1{
+    
+    color: var(--Cyan);
+    margin-bottom: 30px;
+}
+.contaier .section1 .green{
+    color: var(--BrightYellow);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contaier .section1 p{
+    
+     line-height: 1.7;
+     color: var(--GrayishBlue);
+     margin-bottom: 25px;
+     font-size: 18px;
+ }
+ .contaier .section2 ul
+    {
+        list-style-type: none;
+        
+ }
+ .contaier .section2{
+    color: white;
+    
+ }
+ .contaier .section2 article:first-child{
+    background-color: var(--Cyan);
+    padding: 30px 40px;
+    
+ }
+ .contaier .section2 article:nth-child(2){
+    background-color:  hsl(179, 62%, 49%);
+    padding: 30px 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+.contaier .section2  h2{
+    
+    color:white;
+    margin-bottom: 20px;
+}
+.contaier .section2 .sp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contaier .section2 p span:first-child{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.contaier .section2 p span:last-child{
+    color: var(--LightGray);
+}
+.contaier .section2 .sp2{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.contaier .section2 ul{
+    line-height: 1.7;
+    
+}
+button{
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media (min-width: 768px){
+    .contaier{
+        width:55%;
+        margin: 20px auto;
+    }
+    .contaier .section2{
+        display: flex;
+        flex-direction: row;
+    }
+    .contaier .section2 article:first-child{
+        flex:1;
+        border-bottom-left-radius: 5px;
+    }
+    .contaier .section2 article:nth-child(2){
+        flex:1;
+        border-bottom-left-radius: 0;
+    }
+}
+    /*
+
+
+
+
+.big-box{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: flex;
+    
+}
+
+.big-box .box2{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    outline: none;
+    padding: 40px 40px 10px 40px;
+    border-bottom-left-radius: 5px;
+}
+.big-box .box2 p{
+    margin-top: 20px;
+
+}
+.big-box .box2 p span:nth-child(2){
+    color:hsl(204, 43%, 93%) ;
+    
+}
+.big-box .box2 p span:first-child{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.big-box .box2 p:last-child {
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+   font-size: 17px;
+}
+.big-box .box2 h3,.big-box .box3 h3{
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.big-box .box3{
+    padding: 40px 40px;
+    
+    width: 50%;
+    background-color: hsla(179, 62%, 43%, 0.846) ;
+    border-bottom-right-radius: 5px;
+    outline: none;
+}
+.big-box .box3 p{
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 17px;
+    color: hsl(204, 43%, 93%);
+}
+button{
+    
+}
+
+ */
